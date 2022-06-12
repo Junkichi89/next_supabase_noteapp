@@ -18,7 +18,7 @@ export const getStaticProps: GetStaticProps = async () => {
   }
   return {
     props: { notes },
-    revalidate: true,
+    revalidate: false,
   }
 }
 
